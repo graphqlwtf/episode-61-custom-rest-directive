@@ -1,0 +1,23 @@
+{
+  "name": "episode-61-stream-and-defer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node server.ts",
+    "dev": "ts-node-dev server.ts",
+    "check": "tsc --pretty --noEmit"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "9.0.4",
+    "@graphql-tools/utils": "8.12.0",
+    "@graphql-yoga/node": "2.13.13",
+    "graphql": "16.6.0",
+    "undici": "5.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.3",
+    "ts-node": "10.8.2",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.7.4"
+  }
+}
